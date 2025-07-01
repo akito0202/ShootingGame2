@@ -13,7 +13,7 @@ public void draw(MyFrame f) {
 	}
 	public void move() {
 		super.move();
-		vx=Math.random()*4-2;
+		vx=Math.random()*6-2;
 	}
 
 }
