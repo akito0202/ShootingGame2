@@ -100,11 +100,11 @@ public class GameFrame extends MyFrame{
 				
 				if(checkHit(e,b)) {
 					System.out.println("あたり");
-					GameWorld.enemies.remove(j);
+					
 					hits++;
 					e.life--;
 					if(e.life<=0) {
-						GameWorld.score+=e.score;
+						
 						GameWorld.enemies.remove(j);
 					}
 				}else {

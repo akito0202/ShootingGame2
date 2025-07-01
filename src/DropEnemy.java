@@ -11,7 +11,7 @@ public void draw(MyFrame f) {
 	}
 	public void move() {
 		super.move();
-		vy=vy+1;
+		vy=vy+0.3;
 	}
 
 }
