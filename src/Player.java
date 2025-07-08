@@ -11,6 +11,7 @@ public class Player extends Character implements KeyListener{
 	public Player(double x,double y, double vx,double vy) {
 		super(x,y,vx,vy);
 	}
+	
 	public void keyPressed(KeyEvent e) {
 		if(e.getKeyCode()==KeyEvent.VK_LEFT) {
 			vx=-5;

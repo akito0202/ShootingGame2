@@ -19,8 +19,8 @@ public class SilentEnemy extends Enemy {
         double dy = playerY - y;
         double distance = Math.sqrt(dx * dx + dy * dy);
 
-        // 距離が50以下になったら表示状態にする
-        if (distance <= 100) {
+        // 距離が200以下になったら表示状態にする
+        if (distance <= 200) {
             visible = true;
         }
     }
