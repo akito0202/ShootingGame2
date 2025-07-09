@@ -20,7 +20,7 @@ public class SilentEnemy extends Enemy {
         double distance = Math.sqrt(dx * dx + dy * dy);
 
         // 距離が200以下になったら表示状態にする
-        if (distance <= 200) {
+        if (distance <= 150) {
             visible = true;
         }
     }
